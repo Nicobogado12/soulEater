@@ -1,0 +1,130 @@
+@import url('https://fonts.cdnfonts.com/css/georgea');
+@import url('https://fonts.cdnfonts.com/css/strongarm');
+                
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.cuerpo2{
+    background-color: black;
+}
+
+.cuerpo2 .header2{
+    position: relative;
+    width: 100%;
+   height: 100vh;
+   overflow: hidden;
+}
+
+.txt1{
+    position: absolute;
+    top: 50%;
+    left: 45%;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 60px;
+    font-family: 'Strongarm', sans-serif;
+}
+
+.txt2{
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 2px;
+    letter-spacing: 0;
+    font-size: 45px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.fa-regular{
+    color: #fff;
+    position: absolute;
+    bottom: 10%;
+    right: 10%;
+    font-size: 50px;
+    margin: 20px;
+}
+
+
+.VideoContainer{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+
+.soulEater{
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.txt{
+position: absolute;
+font-family: 'GEORGEA', sans-serif;
+font-size: 7rem;
+letter-spacing: 5px;
+top: 20%;
+left: 5.5%;
+color: #fff;
+text-align: center;
+-webkit-text-fill-color: transparent;
+-webkit-text-stroke-width: 1px;
+animation: texto-movido 2s ease-in;
+}
+
+@keyframes texto-movido{
+    from{
+        transform: translateX(-120%);
+    }to{
+        transform: translateX(100px);
+    }
+}
+
+
+.Nico{
+position: absolute;
+bottom: 0;
+right: -60px;
+margin-bottom: 6%;
+font-family: 'GEORGEA', sans-serif;
+font-size: 20px;
+color: #fff;
+transform: rotate(-90deg);
+
+}
+
+
+.container3{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.container3 img{
+position: absolute;
+left: 20%;
+
+}
+
+.contenedorTXT3{
+    position: absolute;
+    font-size: 80px;
+    bottom: 0;
+    left: 19%;
+    z-index: 1;
+}
+
+.TXT3{
+    color:#FFF;
+}
+
